@@ -2264,6 +2264,7 @@ hr{
 }
 footer{
     background-color: black;
+	border-top:3px red solid;
 }
 .footer-info {
     padding-top: 30px;
