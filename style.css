@@ -177,7 +177,7 @@ a:hover {
 /* Default button */
 a.default-btn {
 	color: #fff;
-	background-color: #4582ff;
+	background-color: #ffffff;
 	padding: 16px 40px;
 	border-radius: 5px;
 	font-size: 14px;
@@ -192,7 +192,7 @@ a.default-btn i {
 
 a.default-btn:hover {
 	color: #4582ff;
-	background-color: #fff;
+	background-color: black	;
 	transition: .6s ease-out;
 	-webkit-transition: .6s ease-out;
 	-moz-transition: .6s ease-out;
@@ -2122,8 +2122,7 @@ select.course-select+.nice-select ul li {
 
 .counters {
 	font-family: 'Roboto', sans-serif;
-	background: lightskyblue url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg');
-	color: #fff;
+	background: black;
 	/* Push to bottom */
 	display: flex;
 	flex-direction: column;
@@ -2150,10 +2149,11 @@ header h1 {
 }
 
 .counters {
-	background: #0f479a;
+	background: #000000;
 	color: #fff;
 	padding: 40px 20px;
-	border-top: 3px lightskyblue solid;
+	border-top: 3px red solid;
+	border-bottom: 3px red solid;
 }
 
 .counters .container {
